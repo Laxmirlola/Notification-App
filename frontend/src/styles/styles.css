@@ -1,0 +1,93 @@
+/* Reset and base styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8fa;
+  margin: 0;
+  padding-left: 10rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container for form and list */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1,
+h2 {
+  text-align: center;
+  color: #1f1f1f;
+  margin-bottom: 25px;
+}
+
+/* Form layout */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Inputs and controls */
+input,
+select,
+textarea {
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fefefe;
+  transition: border-color 0.2s ease-in-out;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Notification list styles */
+.notification-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-item {
+  padding: 14px 16px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0;
+  border-left: 6px solid #007bff;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+/* Status message */
+p {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+}
